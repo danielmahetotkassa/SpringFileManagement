@@ -1,0 +1,30 @@
+Microservices With Spring Cloud
+- Introduction to Microservies architectural Style
+- hands on Experience with the spring cloud components 
+- Articulate the Microservices Architectural Style
+    - Advantage and Disadvantage
+- Build Simple Spring boot Applications
+    - Web Interfaces, RESTful interfaces, spring Data, spring Data REST
+- Build Microservices applications using spring cloud
+    - Utilize centralized configuration using spring cloud config and Spring Cloud Bus- Push Notification- Whenever it get the update - the system automatically updates the connected systems. 
+    - Utilize Service Discovery using Eureka 
+    - Implement resilient Service clients with Ribbon, Feign, and Hystrix
+- What are micro services 
+    - decomposition of single system into a suite of small services, each running as independent processes and intercommunicating via open protocol
+    - developing a single application as a suite of small each running in its own process and communicating withe lightweight mechanisms, often HTTP resource API. 
+    - Fine-grained SOA
+    - composing a single application using a suite of small services( rather than a single, monolithic applications
+    - each running as independent processes ( not merely modules / components within single executable 
+    - intercommunicating via open protocols (like HTTP/REST, or messaging ) - REdis is one of the messaging services that most companies are using- 
+    - Messaging Serivies is one that accepts a message stores in a queue and sends the message to the connected devices. 
+    - separately written, deployed, scaled and maintained ( potentially in different languages)
+    -  Services encapsulate business capabilities ( rather than language constructs ( classes, packages ) as primary way to encapsulate
+    - services are independent replaceable and upgradable
+- Microserives are not
+    - The same SOA
+    - SOA is about integrating various enterprise applications. Microservies are mainly about decomposing a single applications 
+    - A silver bullet 
+        - The micro services architecture involves drawbacks and risks 
+    - Twitter moved from RUB:Y monolith to microservies
+    - Facebook move form PHP to microsevices
+    - Netflix mover JAva mon
