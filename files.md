@@ -28,3 +28,4 @@
     - Twitter moved from RUB:Y monolith to microservies
     - Facebook move form PHP to microsevices
     - Netflix mover JAva mon
+    - this is the first commit in the application
